@@ -1,0 +1,10 @@
+*.DS_Store
+*.idea
+
+#IDE metadata
+**.idea/**
+Code/.idea/
+Code/.idea/*
+**.__pycache__/**
+
+**/**/.__pycache__/**

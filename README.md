@@ -8,9 +8,5 @@
 - *Drug analysis GitHub repo:* https://github.com/sharmaroshan/Drugs-Recommendation-using-Reviews/blob/master/DrugsAnalysis.ipynb
 - *Dataset:* https://archive.ics.uci.edu/ml/datasets/Drug+Review+Dataset+%28Drugs.com%29#
 
-## Link to Colabs
-
-- *Dels collab link:* https://colab.research.google.com/drive/1Zm4y0U93mzFRMpQk6Btg_7e7Esh-JnIT?usp=sharing
-  - Secondary link (Code in better format): https://colab.research.google.com/drive/1Uyss_mItmPwgIrXCtCEmSi5--iEok4a6?usp=sharing
-- *Chels collab link:* https://colab.research.google.com/drive/17OMg32mlN02AZxI3-kkHIZfxFYD9dy1P?usp=sharing 
-- *Rebs collab link:*
+## Link to Kaggle code
+- https://www.kaggle.com/delferns/personalized-treatment-recommendation/edit

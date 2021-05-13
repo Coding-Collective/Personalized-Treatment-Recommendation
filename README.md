@@ -10,3 +10,8 @@
 
 ## Link to Kaggle code
 - https://www.kaggle.com/delferns/personalized-treatment-recommendation/edit
+
+Personalized Treatment Recommendation
+Drug Recommendation
+Deep Personalized Medicine
+Personalized Treatment Recommendation, Drug Recommendation, Deep Personalised Medicine, Pharmaceutical

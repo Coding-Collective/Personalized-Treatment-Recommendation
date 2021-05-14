@@ -4,8 +4,8 @@ import streamlit as st
 # Add pages -- see those files for details within
 from page_introduction import page_introduction
 from data_explore import data_explore
-# from model_explore import model_explore
-# from model_working import model_working
+from model_explore import model_explore
+from model_working import model_working
 
 # Use random seed
 import numpy as np
@@ -41,8 +41,8 @@ def main():
     pages = {
         "What is Medicate?": page_introduction,
         "Data Exploration": data_explore,
-        # "Model Exploration": model_explore,
-        # "Model Working": model_working,
+        "Model Exploration": model_explore,
+        "Model Working": model_working,
     }
 
     st.sidebar.subheader("Page options")

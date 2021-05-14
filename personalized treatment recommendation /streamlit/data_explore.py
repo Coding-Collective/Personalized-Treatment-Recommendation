@@ -50,39 +50,40 @@ def data_explore():
         st.text(' ')
         st.text(' ')
 
-        st.markdown("# Let's dive in Data Exploration 📊")
-
-        # ADD PEAK CODE
-        st.markdown('<span style="color:#949494">Click to take a peak at our drug dataset 🤭</span>',
-                    unsafe_allow_html=True)
-        if st.checkbox('', key='1'):
-            st.subheader("Drug Review Dataset")
-            st.write(df_test)
-
-        st.markdown('<span style="color:#949494">Click to view all our plots 📈</span>', unsafe_allow_html=True)
-        if st.checkbox('', key='2'):
-            st.subheader("Plots")
-            show_image(file_name='../plots/top20.png')
-            show_image(file_name='../plots/bottom20.png')
-            show_image(file_name='../plots/count-rating.png')
-            show_image(file_name='../plots/mean-rating-day.png')
-            show_image(file_name='../plots/mean-rating-month.png')
-        #     rest are corrupted *fml
-
-        st.markdown('<span style="color:#949494">Click to view all our wordclouds 🌩</span>', unsafe_allow_html=True)
-        if st.checkbox('', key='3'):
-            st.subheader("Plots")
-            show_image(file_name='../wordcloud/review.png')
-            # show_image(file_name='../wordcloud/word-count.png')
-            # show_image(file_name='../wordcloud/bigram-count-plots.png')
-            # show_image(file_name='../wordcloud/trigram-count-plots.png')
-            # show_image(file_name='../wordcloud/4-grams-count-plots.png')
-        #     rest are corrupted *fml
-
-        st.text(' ')
-        st.text(' ')
-        st.text(' ')
-        st.text(' ')
-        st.text(' ')
     with col3:
         st.write("")
+
+    st.markdown("# Let's dive in Model Exploration 📊")
+
+    # ADD PEAK CODE
+    st.markdown('<span style="color:#949494">Click to take a peak at our drug dataset 🤭</span>',
+                unsafe_allow_html=True)
+    if st.checkbox('', key='1'):
+        st.subheader("Drug Review Dataset")
+        st.write(df_test)
+
+    st.markdown('<span style="color:#949494">Click to view all our plots 📈</span>', unsafe_allow_html=True)
+    if st.checkbox('', key='2'):
+        st.subheader("Plots")
+        show_image(file_name='../plots/top20.png')
+        show_image(file_name='../plots/bottom20.png')
+        show_image(file_name='../plots/count-rating.png')
+        show_image(file_name='../plots/mean-rating-day.png')
+        show_image(file_name='../plots/mean-rating-month.png')
+    #     rest are corrupted *fml
+
+    st.markdown('<span style="color:#949494">Click to view all our wordclouds 🌩</span>', unsafe_allow_html=True)
+    if st.checkbox('', key='3'):
+        st.subheader("Plots")
+        show_image(file_name='../wordcloud/review.png')
+        # show_image(file_name='../wordcloud/word-count.png')
+        # show_image(file_name='../wordcloud/bigram-count-plots.png')
+        # show_image(file_name='../wordcloud/trigram-count-plots.png')
+        # show_image(file_name='../wordcloud/4-grams-count-plots.png')
+    #     rest are corrupted *fml
+
+    st.text(' ')
+    st.text(' ')
+    st.text(' ')
+    st.text(' ')
+    st.text(' ')

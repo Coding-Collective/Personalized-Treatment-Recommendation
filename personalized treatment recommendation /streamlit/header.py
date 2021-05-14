@@ -20,7 +20,7 @@ def header():
     with col1:
         st.write("")
     with col2:
-        st.image(image, width=350)
+        st.image(image, width=400)
         st.subheader('Your Personalised Treatment Recommendation ⛑')
     with col3:
         st.write("")

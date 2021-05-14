@@ -13,14 +13,6 @@ py.init_notebook_mode(connected=True)
 pd.options.mode.chained_assignment = None
 pd.options.display.max_columns = 999
 
-st.text(' ')
-st.text(' ')
-st.text(' ')
-st.text(' ')
-st.text(' ')
-
-st.markdown("# Data Exploration")
-
 
 def show_image(file_name, width=1000):
     plot = Image.open(file_name)
@@ -28,12 +20,11 @@ def show_image(file_name, width=1000):
 
 
 def data_explore():
+    """
+        The first page in this app made with Streamlit is for an interactive
+        exploration of the continuous distributions that are available in SciPy.
+        """
     header()
-
-    """
-    The first page in this app made with Streamlit is for an interactive
-    exploration of the continuous distributions that are available in SciPy.
-    """
 
     @st.cache
     def load_df_train():
@@ -58,6 +49,8 @@ def data_explore():
         st.text(' ')
         st.text(' ')
         st.text(' ')
+
+        st.markdown("# Let's dive in Data Exploration 📊")
 
         # ADD PEAK CODE
         st.markdown('<span style="color:#949494">Click to take a peak at our drug dataset 🤭</span>',

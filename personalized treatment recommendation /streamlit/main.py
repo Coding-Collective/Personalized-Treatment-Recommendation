@@ -13,7 +13,7 @@ import numpy as np
 np.random.seed(1)
 
 # Set the default elements on the sidebar
-st.set_page_config(page_title='Medicate')
+# st.set_page_config(page_title='Medicate')
 
 logo, name, temp = st.sidebar.beta_columns(3)
 with logo:

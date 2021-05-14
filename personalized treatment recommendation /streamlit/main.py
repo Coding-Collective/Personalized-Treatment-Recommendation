@@ -40,7 +40,7 @@ def main():
 
     pages = {
         "What is Medicate?": page_introduction,
-        # "Data Exploration": data_explore,
+        "Data Exploration": data_explore,
         # "Model Exploration": model_explore,
         # "Model Working": model_working,
     }
